@@ -1,0 +1,174 @@
+Perfeito, vou te entregar a **estrutura completa pronta**, do jeito profissional e organizado ??????
+
+---
+
+# ?? ?? ESTRUTURA DO SEU PROJETO
+
+Crie uma pasta com esse nome:
+
+```plaintext
+meu-site/
+```
+
+E dentro dela, monte exatamente assim:
+
+```plaintext
+meu-site/
+¦
++-- index.html
++-- style.css
++-- script.js (opcional)
+¦
++-- img/
+¦   +-- foto.jpg
+¦
++-- assets/ (opcional)
+```
+
+---
+
+# ?? ?? 1. index.html (já adaptado)
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Stephany Lopes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <img src="img/foto.jpg" class="foto">
+
+    <h1>Stephany Lopes</h1>
+    <p class="bio">Desenvolvedora | Portfólio | Criativa</p>
+
+    <div class="links">
+      <a href="https://instagram.com/stee_liima" target="_blank">Instagram</a>
+      <a href="#">Portfólio</a>
+      <a href="#">LinkedIn</a>
+      <a href="mailto:seuemail@email.com">Email</a>
+      <a href="https://wa.me/5511999999999">WhatsApp</a>
+    </div>
+
+  </div>
+</body>
+</html>
+```
+
+---
+
+# ?? ?? 2. style.css
+
+```css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #E6D6FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 280px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+.foto {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  background: #C8A2FF;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  background: #A678F0;
+}
+```
+
+---
+
+# ?? ?? 3. ONDE COLOCAR SUA FOTO
+
+Coloque sua imagem aqui:
+
+```plaintext
+meu-site/img/foto.jpg
+```
+
+? Pode ser:
+
+* `.jpg`
+* `.png`
+
+---
+
+# ? ?? 4. COMO TESTAR
+
+1. Abra a pasta
+2. Clique duas vezes em `index.html`
+3. Vai abrir no navegador ??
+
+---
+
+# ?? ?? 5. COMO SUBIR PRO GITHUB
+
+Quando for enviar para o GitHub:
+
+?? Você sobe **a pasta inteira**, incluindo:
+
+* index.html
+* style.css
+* pasta `img`
+
+---
+
+# ?? DICA PROFISSIONAL
+
+Depois você pode evoluir assim:
+
+```plaintext
+meu-site/
++-- css/
++-- js/
++-- img/
+```
+
+Mas por agora, essa estrutura já está perfeita ??
+
+---
+
+# ?? Se quiser o próximo nível
+
+Posso:
+
+* deixar com animação ?
+* adicionar seção de projetos ??
+* deixar estilo “site profissional real”
+
+Só fala:
+?? quer que eu evolua esse layout pra algo mais avançado?
